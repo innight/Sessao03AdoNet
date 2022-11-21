@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32929.386
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{200B1BA3-2573-4D2E-9503-3F52EE49D507}"
 EndProject
@@ -12,13 +12,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Associações.png = Associações.png
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bilheteira", "Bilheteira\Bilheteira.csproj", "{F6EF3D0F-FB47-488A-9AD0-FB096B9629B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary_Bilheteira", "Bilheteira\ClassLibrary_Bilheteira.csproj", "{F6EF3D0F-FB47-488A-9AD0-FB096B9629B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1_Models", "ClassLibrary1\ClassLibrary1_Models.csproj", "{EBB6243E-12ED-4561-B685-CAFABE2C885E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1_Models", "ClassLibrary1\ClassLibrary1_Models.csproj", "{EBB6243E-12ED-4561-B685-CAFABE2C885E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppProdutos", "ConsoleAppProdutos\ConsoleAppProdutos.csproj", "{2DE52783-55F1-438F-A528-53FEC8F61956}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppProdutos", "ConsoleAppProdutos\ConsoleAppProdutos.csproj", "{2DE52783-55F1-438F-A528-53FEC8F61956}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1_AspNetCoreWebApp_VC", "WebApplication1_AspNetCoreWebApp_VC\WebApplication1_AspNetCoreWebApp_VC.csproj", "{648A715B-0E9E-4259-B90A-5152F405FC14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1_AspNetCoreWebApp_VC", "WebApplication1_AspNetCoreWebApp_VC\WebApplication1_AspNetCoreWebApp_VC.csproj", "{648A715B-0E9E-4259-B90A-5152F405FC14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_AspNetCoreMVC_Bilheteira", "WebApplication_Bilheteira\WebApplication_AspNetCoreMVC_Bilheteira.csproj", "{E60BC483-E5EB-4945-AAFD-6E6E3F53095D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{648A715B-0E9E-4259-B90A-5152F405FC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{648A715B-0E9E-4259-B90A-5152F405FC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{648A715B-0E9E-4259-B90A-5152F405FC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E60BC483-E5EB-4945-AAFD-6E6E3F53095D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60BC483-E5EB-4945-AAFD-6E6E3F53095D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60BC483-E5EB-4945-AAFD-6E6E3F53095D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60BC483-E5EB-4945-AAFD-6E6E3F53095D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

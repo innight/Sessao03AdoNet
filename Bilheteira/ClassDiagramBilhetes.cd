@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bilheteira.Evento">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAIAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAFAAAA=</HashCode>
+      <FileName>Evento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SubTipoEvento" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Sessoes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bilheteira.Local">
+    <Position X="9" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Local.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Sessoes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bilheteira.Sector">
+    <Position X="11.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAAAgAAAAAAAAAAAAAAAAAEAAAAAEAAEAAAg=</HashCode>
+      <FileName>Sector.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Sessao" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Lugares" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bilheteira.Sessao">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAgAAAABAAAAABQAAAEAgBAAAAAAACAAAEAAAg=</HashCode>
+      <FileName>Sessao.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Evento" />
+      <Property Name="Local" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Sectores" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bilheteira.SubTipoEvento">
+    <Position X="3.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAAABAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAA=</HashCode>
+      <FileName>SubTipoEvento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TipoEvento" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Eventos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bilheteira.TipoEvento">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>TipoEvento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="SubTipoEventos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bilheteira.Lugar">
+    <Position X="14.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAADAEg=</HashCode>
+      <FileName>Lugar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bilhete" />
+      <Property Name="Sector" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bilheteira.Bilhete">
+    <Position X="16.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAABCAAAAAAAAAQAAAAAAAAAABAAA=</HashCode>
+      <FileName>Bilhete.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Lugar" />
+      <Property Name="Cliente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bilheteira.Cliente">
+    <Position X="16.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Bilhetes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
